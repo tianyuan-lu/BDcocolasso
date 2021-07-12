@@ -22,7 +22,7 @@
 lasso_covariance <- function(n,
                              p,
                              lambda, 
-                             control = list(maxIter = 1000,
+                             control = list(maxIter = 10000,
                                             optTol = 10^(-5), 
                                             zeroThreshold = 10^(-6)), 
                              XX, 
